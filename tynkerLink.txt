@@ -1,0 +1,10 @@
+https://bfs-dev.tynker.com/code/project/65032ef0a49c6063854fe392
+
+
+Make the refund() function in the scripts/order.js is called when refund button is pressed
+Call the /payment endpoint when this function runs
+
+
+Note: Make sure to add some product from admin account
+Then Click on client website from navigation bar and buy those products
+The go to my Orders on the admin website and click on refund button
