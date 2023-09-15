@@ -63,13 +63,13 @@
                     <div class="col-10 card mt-3">
                         <b class="card-header w-100">Send Payment</b>
                         <div class="card-body">
-                            <form method="POST" action="/process_payment">
+                            <form method="POST" action="/makeTransaction">
                                 <!-- Recipient Address Field -->
                                 <div class="mb-3">
                                     <label for="recipient_address" class="form-label">Recipient
                                         Address</label>
                                     <input type="text" class="form-control" style="border-radius: 20px;"
-                                        id="recipient_address" name="recipient_address"
+                                        id="recipient_address" name="receiverAddress"
                                         required 
                                         {%if receiverAddress%}
                                         value = {{receiverAddress}}
